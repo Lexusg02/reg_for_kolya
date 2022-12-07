@@ -1,0 +1,47 @@
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+button {
+    cursor: pointer;
+}
+
+input {
+    margin: 10px 0;
+    border: unset;
+    outline: none;
+    border-bottom: 2px solid grey;
+}
+
+a {
+    color: coral;
+    font-weight: bold;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.message {
+    border-radius: 3px;
+    border: 2px solid orangered;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.logout {
+    text-align: center;
+    color: violet!important;
+}
